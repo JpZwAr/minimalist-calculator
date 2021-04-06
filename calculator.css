@@ -1,0 +1,66 @@
+body {
+  background-color: #A3CDD9;
+}
+
+.titulo {
+  font-family: Helvetica, sans-serif;
+  color: #506AD4;
+  margin: 0 auto;
+  text-align: center;
+  width: 280px;
+}
+
+.calc {
+  padding: 10px;
+  border: 3px solid #FFFCE6;
+  border-radius: 0.8em;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.teclado {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  background-color: #A3CDD9;
+  padding: 10px;
+  grid-gap: 10px;
+  width: 280px;
+  margin: 0 auto;
+}
+
+.tecla {
+  background-color: #C2B8AD;
+  border: 1px solid #C2B8AD;
+  border-radius: 0.8em;
+  padding: 10px;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  color: #101010;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+}
+
+.tecla:hover {
+  background-color: rgb(150, 150, 150);
+  border-color: rgb(150, 150, 150);
+}
+
+.tela {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFCE6;
+  border: 10px solid #A3CDD9;
+  border-radius: 1em;
+  width: 260px;
+  height: 40px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.text-tela {
+  font-family: Helvetica, sans-serif;
+  color: #506AD4;
+}
